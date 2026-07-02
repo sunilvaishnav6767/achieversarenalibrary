@@ -372,3 +372,27 @@ font-size:16px;
 }
 
 }
+
+/* ===== CONTACT ===== */
+
+.contact{
+    padding:80px 20px;
+    text-align:center;
+    background:#111827;
+}
+
+.contact h2{
+    color:#FFD700;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.contact p{
+    color:#ddd;
+    font-size:18px;
+    margin:15px 0;
+}
+
+.contact button{
+    margin:15px 10px;
+}
