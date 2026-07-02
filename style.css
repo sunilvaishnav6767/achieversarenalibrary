@@ -162,3 +162,160 @@ transform:scale(1.05);
 border-color:#FFD700;
 box-shadow:0 15px 40px rgba(255,215,0,.35);
 }
+
+/* ===== FACILITIES ===== */
+
+.facilities{
+    padding:90px 20px;
+    background:#0d1117;
+    text-align:center;
+}
+
+.facilities h2{
+    font-size:42px;
+    color:#FFD700;
+    margin-bottom:50px;
+}
+
+.facility-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:#161b22;
+    border:1px solid rgba(255,215,0,.25);
+    border-radius:18px;
+    padding:30px 20px;
+    transition:.35s;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#FFD700;
+    box-shadow:0 15px 35px rgba(255,215,0,.25);
+}
+
+.card h3{
+    color:#FFD700;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#d5d5d5;
+    font-size:16px;
+    line-height:1.7;
+}
+/* ===== ABOUT ===== */
+
+.about{
+    padding:90px 20px;
+    background:#08111f;
+    text-align:center;
+}
+
+.about h2{
+    font-size:42px;
+    color:#FFD700;
+    margin-bottom:30px;
+}
+
+.about p{
+    max-width:1000px;
+    margin:20px auto;
+    color:#d5d5d5;
+    font-size:18px;
+    line-height:1.9;
+}
+
+.about strong{
+    color:#FFD700;
+}
+/* ===== PRICING ===== */
+
+.pricing{
+    padding:90px 20px;
+    background:#0d1117;
+    text-align:center;
+}
+
+.pricing h2{
+    font-size:42px;
+    color:#FFD700;
+    margin-bottom:50px;
+}
+
+.price-card{
+    max-width:500px;
+    margin:25px auto;
+    background:#161b22;
+    border:2px solid rgba(255,215,0,.25);
+    border-radius:20px;
+    padding:25px;
+    transition:.35s;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.price-card:hover{
+    transform:translateY(-8px);
+    border-color:#FFD700;
+    box-shadow:0 15px 35px rgba(255,215,0,.25);
+}
+
+.price-card h3{
+    color:#FFD700;
+    font-size:26px;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:30px;
+    color:#fff;
+    font-weight:700;
+}
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width:768px){
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+.hero-buttons button{
+width:100%;
+margin:10px 0;
+}
+
+.gallery h2,
+.facilities h2,
+.about h2,
+.pricing h2{
+font-size:32px;
+}
+
+.price-card{
+margin:20px 10px;
+}
+
+.card{
+padding:20px;
+}
+
+.about p{
+font-size:16px;
+}
+
+}
