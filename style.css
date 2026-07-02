@@ -449,3 +449,41 @@ font-size:40px;
 color:#fff;
 cursor:pointer;
 }
+
+.reviews{
+padding:80px 20px;
+text-align:center;
+}
+
+.reviews h2{
+font-size:36px;
+color:#FFD700;
+margin-bottom:40px;
+}
+
+.review-card{
+max-width:800px;
+margin:20px auto;
+padding:25px;
+background:#161b22;
+border:1px solid rgba(255,215,0,.25);
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+transition:.3s;
+}
+
+.review-card:hover{
+transform:translateY(-5px);
+border-color:#FFD700;
+}
+
+.review-card h3{
+color:#FFD700;
+margin-bottom:15px;
+}
+
+.review-card p{
+color:#ddd;
+font-size:17px;
+line-height:1.7;
+}
