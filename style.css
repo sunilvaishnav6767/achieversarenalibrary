@@ -313,6 +313,54 @@ margin:20px 10px;
 .card{
 padding:20px;
 }
+    /* ===== HERO STATS ===== */
+
+.hero-stats{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+
+.hero-stats div{
+    background:rgba(255,215,0,0.08);
+    border:1px solid rgba(255,215,0,0.25);
+    border-radius:16px;
+    padding:18px 28px;
+    min-width:140px;
+    backdrop-filter:blur(8px);
+}
+
+.hero-stats h3{
+    color:#FFD700;
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.hero-stats span{
+    color:#ddd;
+    font-size:16px;
+}
+
+@media (max-width:768px){
+    .hero-stats{
+        gap:15px;
+    }
+
+    .hero-stats div{
+        min-width:110px;
+        padding:15px;
+    }
+
+    .hero-stats h3{
+        font-size:22px;
+    }
+
+    .hero-stats span{
+        font-size:14px;
+    }
+}
 
 .about p{
 font-size:16px;
