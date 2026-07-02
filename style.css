@@ -2,83 +2,127 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
+font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#111;
+background:#05070d;
 color:#fff;
 }
 
 nav{
 position:fixed;
 top:0;
+left:0;
 width:100%;
-background:rgba(0,0,0,.8);
-backdrop-filter:blur(10px);
-padding:18px;
-text-align:center;
+padding:20px;
+background:rgba(5,7,13,.85);
+backdrop-filter:blur(12px);
+display:flex;
+justify-content:center;
+align-items:center;
 z-index:1000;
+border-bottom:1px solid rgba(255,215,0,.25);
 }
 
 nav h2{
+font-size:30px;
 color:#FFD700;
 letter-spacing:2px;
+font-weight:800;
+text-align:center;
 }
 
 .hero{
 height:100vh;
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),url("hero.jpg");
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(5,10,30,.80)),
+url("hero.jpg");
 background-size:cover;
 background-position:center;
 display:flex;
-flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
 }
 
+.hero-content{
+max-width:900px;
+animation:fadeUp 1.2s ease;
+}
+
 .hero h1{
-font-size:52px;
+font-size:56px;
+line-height:1.2;
 margin-bottom:20px;
+font-weight:800;
 }
 
 .hero p{
 font-size:22px;
-margin-bottom:30px;
+color:#d8d8d8;
+margin-bottom:40px;
 }
 
-button{
-padding:15px 35px;
-margin:10px;
-font-size:18px;
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}button{
+background:linear-gradient(135deg,#FFD700,#C9A227);
+color:#000;
+padding:18px 40px;
+font-size:20px;
+font-weight:700;
 border:none;
 border-radius:50px;
-background:#FFD700;
-color:#000;
-font-weight:bold;
 cursor:pointer;
-transition:.3s;
+transition:.4s;
+box-shadow:0 10px 30px rgba(255,215,0,.35);
 }
 
 button:hover{
-transform:scale(1.05);
-background:#ffcc00;
+transform:translateY(-6px) scale(1.05);
+box-shadow:0 18px 40px rgba(255,215,0,.55);
+}
+
+a{
+text-decoration:none;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
 }
 
 @media(max-width:768px){
 
+nav h2{
+font-size:22px;
+}
+
 .hero h1{
-font-size:34px;
+font-size:38px;
 }
 
 .hero p{
 font-size:18px;
 }
 
-button{
-width:90%;
+.hero-buttons{
+flex-direction:column;
+align-items:center;
 }
 
+button{
+width:280px;
+}
 }
