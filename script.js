@@ -24,11 +24,13 @@ images.forEach(img => {
     fullImg.style.borderRadius = "10px";
       const closeBtn = document.createElement("div");
 closeBtn.innerHTML = "✕";
-closeBtn.style.position = "absolute";
+closeBtn.style.position = "fixed";
 closeBtn.style.top = "20px";
 closeBtn.style.right = "20px";
-closeBtn.style.color = "#fff";
-closeBtn.style.fontSize = "35px";
+closeBtn.style.zIndex = "10001";
+closeBtn.style.color = "#FFD700";
+closeBtn.style.fontSize = "45px";
+
 closeBtn.style.cursor = "pointer";
 closeBtn.style.fontWeight = "bold";
 
