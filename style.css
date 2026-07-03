@@ -55,7 +55,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:260px 20px 100px;
+padding:180px 20px 80px;
 }
 
 .hero-content{
@@ -529,7 +529,7 @@ nav{
     line-height:1.2;
     }
     .hero{
-    padding-top:210px;
+    padding-top:140px;
     }
 .nav-links{
     display:flex;
