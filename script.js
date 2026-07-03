@@ -49,3 +49,25 @@ overlay.onclick = () => {
     document.body.appendChild(overlay);
   });
 });
+
+const hero = document.getElementById("hero");
+
+const backgrounds = [
+    "hero.webp",
+    "20260320_230250.jpg",
+    "20260320_230449.jpg",
+    "20260320_230614.jpg",
+    "20260321_115107.jpg"
+];
+
+let current = 0;
+
+setInterval(() => {
+    current = (current + 1) % backgrounds.length;
+
+    hero.style.background =
+        `linear-gradient(rgba(0,0,0,.65), rgba(5,10,30,.80)), url('${backgrounds[current]}')`;
+
+    hero.style.backgroundSize = "cover";
+    hero.style.backgroundPosition = "center";
+}, 4000);
