@@ -61,7 +61,8 @@ const backgrounds = [
 ];
 
 let current = 0;
-
+hero.style.background =
+`linear-gradient(rgba(0,0,0,.65), rgba(5,10,30,.80)), url(${backgrounds[0]})`;
 setInterval(() => {
     current = (current + 1) % backgrounds.length;
 
