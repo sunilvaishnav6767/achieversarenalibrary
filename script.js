@@ -66,8 +66,8 @@ setInterval(() => {
     current = (current + 1) % backgrounds.length;
 
     hero.style.background =
-        `linear-gradient(rgba(0,0,0,.65), rgba(5,10,30,.80)), url('${backgrounds[current]}')`;
-
+`linear-gradient(rgba(0,0,0,.65), rgba(5,10,30,.80)),
+url(${backgrounds[current]})`;
     hero.style.backgroundSize = "cover";
     hero.style.backgroundPosition = "center";
 }, 7000);
