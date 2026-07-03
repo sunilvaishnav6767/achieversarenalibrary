@@ -24,7 +24,7 @@ position:fixed;
 top:0;
 left:0;
 width:100%;
-padding:20px;
+padding:30px 20px;
 background:rgba(5,7,13,.85);
 backdrop-filter:blur(12px);
 display:flex;
@@ -54,7 +54,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:220px 20px 100px;
+padding:260px 20px 100px;
 }
 
 .hero-content{
