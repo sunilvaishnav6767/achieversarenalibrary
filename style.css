@@ -521,6 +521,9 @@ flex-direction:column;
 align-items:center;
 padding:15px;
 }
+    .hero{
+    padding-top:170px;
+    }
 .nav-links{
 display:flex;
 flex-wrap:wrap;
