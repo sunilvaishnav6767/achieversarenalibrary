@@ -532,3 +532,13 @@ font-size:15px;
 }
 
 }
+
+.gallery-grid img{
+transition:0.4s;
+cursor:pointer;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.05);
+box-shadow:0 10px 30px rgba(255,215,0,0.4);
+}
