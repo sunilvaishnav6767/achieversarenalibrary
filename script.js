@@ -68,6 +68,16 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
 
     let current = 0;
+    const dotsContainer = document.createElement("div");
+dotsContainer.className = "slider-dots";
+hero.appendChild(dotsContainer);
+
+backgrounds.forEach((_, i) => {
+    const dot = document.createElement("span");
+    dot.className = "dot";
+    if (i === 0) dot.classList.add("active");
+    dotsContainer.appendChild(dot);
+});
 
     function changeBackground() {
 
@@ -83,7 +93,9 @@ document.addEventListener("DOMContentLoaded", function () {
         hero.style.backgroundRepeat = "no-repeat";
 
         hero.classList.remove("fade");
-
+const dots = document.querySelectorAll(".dot");
+dots.forEach(dot => dot.classList.remove("active"));
+dots[current].classList.add("active");
         current = (current + 1) % backgrounds.length;
 
     }, 250);
