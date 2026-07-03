@@ -22,12 +22,27 @@ images.forEach(img => {
     fullImg.style.maxWidth = "95%";
     fullImg.style.maxHeight = "95%";
     fullImg.style.borderRadius = "10px";
+      const closeBtn = document.createElement("div");
+closeBtn.innerHTML = "✕";
+closeBtn.style.position = "absolute";
+closeBtn.style.top = "20px";
+closeBtn.style.right = "20px";
+closeBtn.style.color = "#fff";
+closeBtn.style.fontSize = "35px";
+closeBtn.style.cursor = "pointer";
+closeBtn.style.fontWeight = "bold";
 
     overlay.appendChild(fullImg);
+      overlay.appendChild(closeBtn);
 
-    overlay.onclick = () => {
-      document.body.removeChild(overlay);
-    };
+    closeBtn.onclick = (e) => {
+    e.stopPropagation();
+    document.body.removeChild(overlay);
+};
+
+overlay.onclick = () => {
+    document.body.removeChild(overlay);
+};
 
     document.body.appendChild(overlay);
   });
