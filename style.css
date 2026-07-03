@@ -487,3 +487,39 @@ color:#ddd;
 font-size:17px;
 line-height:1.7;
 }
+
+.nav-links{
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-size:18px;
+font-weight:600;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#FFD700;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+.nav-links a{
+font-size:15px;
+}
+
+}
