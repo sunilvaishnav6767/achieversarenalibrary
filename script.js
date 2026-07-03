@@ -71,6 +71,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function changeBackground() {
 
+    hero.classList.add("fade");
+
+    setTimeout(() => {
+
         hero.style.background =
         `linear-gradient(rgba(0,0,0,.65), rgba(5,10,30,.80)), url("${backgrounds[current]}")`;
 
@@ -78,9 +82,13 @@ document.addEventListener("DOMContentLoaded", function () {
         hero.style.backgroundPosition = "center";
         hero.style.backgroundRepeat = "no-repeat";
 
-        current = (current + 1) % backgrounds.length;
-    }
+        hero.classList.remove("fade");
 
+        current = (current + 1) % backgrounds.length;
+
+    }, 250);
+
+    }
     changeBackground();
 
     setInterval(changeBackground, 7000);
