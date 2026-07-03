@@ -44,6 +44,7 @@ nav h2{
 }
 
 .hero{
+    position:relative;
     min-height:100vh;
     display:flex;
     justify-content:center;
@@ -54,9 +55,13 @@ nav h2{
     background-position:center;
     background-repeat:no-repeat;
 
-    transition:background-image 1s ease-in-out;
+    transition:opacity .4s ease;
 
     padding:140px 20px 70px;
+}
+
+.hero.fade{
+    opacity:.7;
 }
 
 .hero-content{
@@ -139,9 +144,10 @@ align-items:center;
 }
 
 button{
-width:280px;
+    width:90%;
+    max-width:420px;
 }
-}
+    
 
 .gallery{
 padding:80px 20px;
