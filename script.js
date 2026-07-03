@@ -70,6 +70,6 @@ setInterval(() => {
 
     hero.style.backgroundSize = "cover";
     hero.style.backgroundPosition = "center";
-}, 6000);
+}, 7000);
 
 });
