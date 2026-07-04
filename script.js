@@ -8,16 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const backgrounds = [
     "hero.webp",
-    "Jpg.1",
-    "Jpg.2",
-    "Jpg.3",
-    "Jpg.4",
-    "Jpg.5",
-    "Jpg.6",
-    "Jpg.7",
-    "Jpg.8",
-    "Jpg.9",
-    "A.png"
+    "images/IMG-20260306-WA0019.jpg",
+    "images/20260320_230657.jpg",
+    "images/20260320_230311.jpg",
+    "images/file_00000000cbbc71fa9e6f20cf49f430dc.png",
+    "images/20260320_230449.jpg",
+    "images/20260320_230200.jpg",
+    "images/20260320_230628.jpg",
+    "images/IMG-20260704-WA0017.jpg"
 ];
 
     let current = 0;
