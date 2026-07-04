@@ -386,9 +386,13 @@ section{
 
 .gallery-grid img:hover{
 
-    transform:scale(1.04);
+    transform:scale(1.05);
 
     border-color:#FFD700;
+
+    box-shadow:0 18px 40px rgba(255,215,0,.35);
+
+}
 
                     }
 /* ================= FACILITIES ================= */
