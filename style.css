@@ -41,6 +41,7 @@ nav{
     backdrop-filter:blur(14px);
 
     border-bottom:1px solid rgba(255,215,0,.18);
+   box-shadow:0 8px 25px rgba(0,0,0,.35);
 
     z-index:9999;
 }
@@ -110,10 +111,10 @@ nav{
     inset:0;
 
     background:linear-gradient(
-        rgba(0,0,0,.55),
-        rgba(5,7,13,.82)
-    );
-
+    rgba(0,0,0,.35),
+    rgba(5,7,13,.78),
+    rgba(5,7,13,.92)
+);
 }
 
 .hero-content{
@@ -128,6 +129,7 @@ nav{
     margin:auto;
 
     animation:fadeUp 1s ease;
+   text-shadow:0 4px 18px rgba(0,0,0,.45);
 
 }
 
