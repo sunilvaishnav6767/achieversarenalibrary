@@ -7,12 +7,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const hero = document.getElementById("hero");
 
     const backgrounds = [
-        "hero.webp",
-        "20260320_230250.jpg",
-        "20260320_230449.jpg",
-        "20260320_230614.jpg",
-        "20260321_115107.jpg"
-    ];
+    "hero.webp",
+    "Jpg.1",
+    "Jpg.2",
+    "Jpg.3",
+    "Jpg.4",
+    "Jpg.5",
+    "Jpg.6",
+    "Jpg.7",
+    "Jpg.8",
+    "Jpg.9",
+    "A.png"
+];
 
     let current = 0;
 
