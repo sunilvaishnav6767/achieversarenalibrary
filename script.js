@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         setBackground(current);
 
-    },6000);
+    },5000);
 
 
     /* ================= GALLERY LIGHTBOX ================= */
