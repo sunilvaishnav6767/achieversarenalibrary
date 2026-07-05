@@ -40,26 +40,13 @@ const menuToggle = document.getElementById("menuToggle");
 
 const navLinks = document.getElementById("navLinks");
 
-if(menuToggle && navLinks){
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
 
 menuToggle.onclick = function () {
-    alert("Menu Clicked");
+    console.log("clicked");
     navLinks.classList.toggle("active");
 };
-});
-
-document.querySelectorAll(".nav-links a").forEach(link=>{
-
-link.addEventListener("click",()=>{
-
-navLinks.classList.remove("active");
-
-});
-
-});
-
-}
-
 /* ================= STICKY NAVBAR ================= */
 
 const navbar = document.getElementById("navbar");
