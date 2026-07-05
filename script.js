@@ -328,3 +328,4 @@ if(copy){
 copy.innerHTML=`© ${new Date().getFullYear()} Achiever's Arena Library<br>All Rights Reserved.`;
 
 }
+});
