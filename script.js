@@ -26,9 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         setTimeout(()=>{
 
-            hero.style.background =
-            `linear-gradient(rgba(0,0,0,.55),rgba(5,7,13,.82)),
-            url("${backgrounds[index]}") center/cover no-repeat`;
+            hero.style.backgroundImage =
+`linear-gradient(rgba(0,0,0,.25), rgba(5,7,13,.45)), url("${backgrounds[index]}")`;
+
+hero.style.backgroundSize = "cover";
+hero.style.backgroundPosition = "center center";
+hero.style.backgroundRepeat = "no-repeat";
 
             hero.classList.remove("fade");
 
