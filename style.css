@@ -987,5 +987,67 @@ nav{
     object-fit:cover;
 }
 }
+@media only screen and (max-width:767px){
+
+nav{
+    padding:15px 20px;
+    height:auto;
+    flex-direction:column;
+    gap:12px;
+}
+
+.logo h2{
+    font-size:18px;
+    text-align:center;
+}
+
+.nav-links{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:16px;
+}
+
+.nav-links a{
+    font-size:16px;
+}
+
+.hero{
+    padding-top:170px;
+    padding-bottom:70px;
+}
+
+.hero h1{
+    font-size:52px;
+    line-height:1.15;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero-buttons button{
+    width:90%;
+    max-width:320px;
+}
+
+.hero-stats{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.gallery-grid{
+    grid-template-columns:1fr;
+}
+
+.gallery-grid img{
+    height:240px;
+}
+}
 
 /* ================= END ================= */
