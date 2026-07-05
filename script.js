@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
 const loader = document.getElementById("loader");
 
 window.addEventListener("load", () => {
+   window.onerror = function(message){
+    alert(message);
+};
 
 setTimeout(() => {
 
