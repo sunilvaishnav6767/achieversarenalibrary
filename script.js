@@ -42,10 +42,10 @@ const navLinks = document.getElementById("navLinks");
 
 if(menuToggle && navLinks){
 
-menuToggle.addEventListener("click",()=>{
-
-navLinks.classList.toggle("active");
-
+menuToggle.onclick = function () {
+    alert("Menu Clicked");
+    navLinks.classList.toggle("active");
+};
 });
 
 document.querySelectorAll(".nav-links a").forEach(link=>{
