@@ -1054,5 +1054,41 @@ nav{
     height:240px;
 }
 }
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#FFD700;
+    cursor:pointer;
+}
+
+@media only screen and (max-width:767px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        padding:15px 0;
+        background:#05070d;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    nav{
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .logo h2{
+        text-align:left;
+    }
+}
 
 /* ================= END ================= */
