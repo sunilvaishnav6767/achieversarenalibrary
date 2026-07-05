@@ -2,81 +2,119 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="google-site-verification" content="TgtVnZZdAmf2VZFXFsk92FQGFS1-0P4gAcSCecFCJa0" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Achiever's Arena Library | Premium Study Library Jaipur</title>
 
-
 <meta name="description"
-content="Achiever's Arena Library Jaipur - Premium AC Study Library with 100+ Premium Seats, High Speed WiFi, Fingerprint Access, CCTV Security, Peaceful Environment and Comfortable Study Space.">
+content="Achiever's Arena Library Jaipur - Premium Air Conditioned Study Library with Comfortable Seats, High Speed WiFi, Fingerprint Entry, Silent Study Environment and CCTV Security.">
 
 <meta name="keywords"
 content="Library Jaipur, Study Library Jaipur, UPSC Library Jaipur, SSC Library Jaipur, Best Library Jaipur">
 
-<meta name="theme-color" content="#05070d">
-
-<link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="logo.png">
-
-<meta property="og:title" content="Achiever's Arena Library Jaipur">
-
-<meta property="og:description"
-content="Premium AC Study Library in Jaipur with 100+ Seats, High Speed WiFi, Fingerprint Access and Peaceful Study Environment.">
-
-<meta property="og:image" content="hero.webp">
-
-<meta property="og:type" content="website">
-
-<meta property="og:url"
-content="https://sunilvaishnav6767.github.io/achieversarenalibrary/">
-
-<meta name="robots" content="index,follow">
-
 <meta name="author"
 content="Achiever's Arena Library">
 
-<meta name="geo.region"
-content="IN-RJ">
+<meta name="robots"
+content="index,follow">
 
-<meta name="geo.placename"
-content="Jaipur">
+<meta name="theme-color"
+content="#05070d">
 
-<meta name="language"
-content="English">
+<meta property="og:title"
+content="Achiever's Arena Library">
 
-<link rel="preload" as="image" href="hero.webp">
-<link rel="preload" as="image" href="images/IMG-20260306-WA0019.jpg">
-<link rel="preload" as="image" href="images/20260320_230657.jpg">
-<link rel="preload" as="image" href="images/20260320_230449.jpg">
-<link rel="preload" as="image" href="images/IMG-20260704-WA0017.jpg">
+<meta property="og:description"
+content="Premium Study Library in Jaipur">
+
+<meta property="og:image"
+content="hero.webp">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:url"
+content="https://achieversarenalibrary.in">
+
+<link rel="icon"
+type="image/png"
+href="logo.png">
+
+<link rel="stylesheet"
+href="style.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
 
 </head>
 
 <body>
 
-<nav>
+<!-- ================= LOADER ================= -->
+
+<div id="loader">
+
+<div class="loader-box">
+
+<img src="logo.png" alt="Logo">
+
+<h2>ACHIEVER'S ARENA</h2>
+
+<p>Your Path To Success Begins Here</p>
+
+</div>
+
+</div>
+
+<!-- ================= PROGRESS BAR ================= -->
+
+<div id="progress-bar"></div>
+
+<!-- ================= TOP BAR ================= -->
+
+<div class="top-bar">
+
+🎉 Admissions Open • Book Your Seat Today
+
+</div>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav id="navbar">
 
 <div class="logo">
 
-<h2>
+<img src="logo.png" alt="Library Logo">
 
-ACHIEVER'S ARENA
+<div>
 
-<br>
+<h2>ACHIEVER'S ARENA</h2>
 
-LIBRARY
-
-</h2>
+<span>Premium Study Library</span>
 
 </div>
-  <div class="menu-toggle" id="menuToggle">
-    ☰
-  </div>
 
-<div class="nav-links">
+</div>
+
+<div class="menu-toggle" id="menuToggle">
+
+☰
+
+</div>
+
+<div class="nav-links" id="navLinks">
+
+<a href="#home">Home</a>
 
 <a href="#gallery">Gallery</a>
 
@@ -84,7 +122,7 @@ LIBRARY
 
 <a href="#pricing">Pricing</a>
 
-<a href="#reviews">Reviews</a>
+<a href="#faq">FAQ</a>
 
 <a href="#contact">Contact</a>
 
@@ -92,10 +130,20 @@ LIBRARY
 
 </nav>
 
-<section class="hero" id="hero">
-  <video class="hero-video" autoplay muted loop playsinline>
-    <source src="hero-video.mp4" type="video/mp4">
-  </video>
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+<video class="hero-video"
+autoplay
+muted
+loop
+playsinline>
+
+<source src="hero-video.mp4"
+type="video/mp4">
+
+</video>
 
 <div class="hero-overlay"></div>
 
@@ -109,15 +157,14 @@ Achiever's Arena Library
 
 <p>
 
-Your Path to Success Begins Here
+Your Path To Success Begins Here
 
 </p>
-
 <div class="hero-buttons">
 
 <a href="tel:7976239384">
 
-<button>
+<button class="btn primary">
 
 📞 Call Now
 
@@ -125,20 +172,45 @@ Your Path to Success Begins Here
 
 </a>
 
-<a href="https://maps.app.goo.gl/BAMx5ALd2gu5WT738" target="_blank">
+<a href="https://maps.app.goo.gl/BAMx5ALd2gu5WT738"
+target="_blank">
 
-<button>
+<button class="btn secondary">
 
 📍 Visit Library
 
 </button>
 
 </a>
-  <a href="https://maps.app.goo.gl/MiR6pf2hywTUGNEB7" target="_blank">
 
-<button>
+<a href="https://maps.app.goo.gl/MiR6pf2hywTUGNEB7"
+target="_blank">
+
+<button class="btn secondary">
 
 ⭐ Google Reviews
+
+</button>
+
+</a>
+
+<a href="https://wa.me/917976239384?text=Hi%20Achiever's%20Arena%20Library,%20I%20want%20to%20book%20a%20seat."
+target="_blank">
+
+<button class="btn whatsapp">
+
+🪑 Book Seat Now
+
+</button>
+
+</a>
+
+<a href="https://www.instagram.com/achievers_arena_library?igsh=b3Zpczd3OGFvcG43"
+target="_blank">
+
+<button class="btn instagram">
+
+📷 Follow Us
 
 </button>
 
@@ -150,326 +222,720 @@ Your Path to Success Begins Here
 
 <div class="stat-card">
 
-<h3>1700+</h3>
-
-<span>Sq. Ft.</span>
-
-</div>
-
-<div class="stat-card">
-
 <h3>100+</h3>
 
-<span>Premium Seats</span>
+<p>Premium Seats</p>
 
 </div>
 
 <div class="stat-card">
 
-<h3>4.9★</h3>
+<h3>1700+</h3>
 
-<span>Google Rating</span>
+<p>Sq. Ft. Study Area</p>
 
 </div>
+
+<div class="stat-card">
+
+<h3>4.9 ★</h3>
+
+<p>Google Rating</p>
+
+</div>
+
+<div class="stat-card">
+
+<h3>6 AM - 11 PM</h3>
+
+<p>Open Daily</p>
+
+</div>
+
+</div>
+
+<div class="hero-contact">
+
+<div>
+
+📞 <a href="tel:7976239384">7976239384</a>
+
+</div>
+
+<div>
+
+📧 <a href="mailto:achieversarenalibrary@gmail.com">
+
+achieversarenalibrary@gmail.com
+
+</a>
+
+</div>
+
+</div>
+
+<div class="scroll-indicator">
+
+<span></span>
 
 </div>
 
 </div>
 
 </section>
-
 <!-- ================= GALLERY ================= -->
 
 <section id="gallery" class="gallery">
+
+<div class="container">
 
 <div class="section-title">
 
 <h2>Library Gallery</h2>
 
-<p>Premium Study Environment</p>
+<p>
+Explore Our Premium Study Environment
+</p>
 
 </div>
 
 <div class="gallery-grid">
 
-<img src="hero.webp" alt="Library Image" loading="lazy">
+<img src="hero.webp" alt="Achiever's Arena Library">
 
-<img src="images/IMG-20260306-WA0019.jpg" alt="Library Image" loading="lazy">
+<img src="images/IMG-20260306-WA0019.jpg" alt="Study Area">
 
-<img src="images/20260320_230657.jpg" alt="Library Image" loading="lazy">
+<img src="images/20260320_230657.jpg" alt="Premium Seating">
 
-<img src="images/20260320_230311.jpg" alt="Library Image" loading="lazy">
+<img src="images/20260320_230311.jpg" alt="Reading Zone">
 
-<img src="images/file_00000000cbbc71fa9e6f20cf49f430dc.png" alt="Library Image" loading="lazy">
+<img src="images/file_00000000cbbc71fa9e6f20cf49f430dc.png" alt="Library Interior">
 
-<img src="images/20260320_230449.jpg" alt="Library Image" loading="lazy">
+<img src="images/20260320_230449.jpg" alt="Study Hall">
 
-<img src="images/20260320_230200.jpg" alt="Library Image" loading="lazy">
+<img src="images/20260320_230200.jpg" alt="Silent Zone">
 
-<img src="images/20260320_230628.jpg" alt="Library Image" loading="lazy">
+<img src="images/20260320_230628.jpg" alt="Library View">
 
-<img src="images/IMG-20260704-WA0017.jpg" alt="Library Image" >
-  </div>
+<img src="images/IMG-20260704-WA0017.jpg" alt="Premium Library">
+
+</div>
+
+</div>
+
 </section>
 
-<!-- ================= FACILITIES ================= -->
+<!-- ================= WHY CHOOSE US ================= -->
 
-<section id="facilities" class="facilities">
+<section class="why-us">
+
+<div class="container">
 
 <div class="section-title">
 
 <h2>Why Choose Achiever's Arena?</h2>
 
-<p>Premium Facilities For Serious Aspirants</p>
+<p>
+Premium Study Experience Designed For Success
+</p>
+
+</div>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<div class="icon">🏆</div>
+
+<h3>Premium Study Environment</h3>
+
+<p>
+
+Peaceful atmosphere specially designed for serious aspirants.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<div class="icon">❄</div>
+
+<h3>Fully Air Conditioned</h3>
+
+<p>
+
+Stay comfortable and focused throughout the day.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<div class="icon">📶</div>
+
+<h3>Dual High Speed WiFi</h3>
+
+<p>
+
+Fast and reliable internet connection.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<div class="icon">🔒</div>
+
+<h3>Fingerprint Entry</h3>
+
+<p>
+
+Secure biometric access for members.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<div class="icon">📹</div>
+
+<h3>24×7 CCTV Security</h3>
+
+<p>
+
+Complete safety and monitoring.
+
+</p>
+
+</div>
+
+<div class="why-card">
+
+<div class="icon">💡</div>
+
+<h3>Eye Comfort LED Lighting</h3>
+
+<p>
+
+Comfortable lighting for long study sessions.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= LIBRARY HIGHLIGHTS ================= -->
+
+<section class="highlights">
+
+<div class="container">
+
+<div class="highlight-box">
+
+<div>
+
+<h2>100+</h2>
+
+<p>Premium Seats</p>
+
+</div>
+
+<div>
+
+<h2>1700+</h2>
+
+<p>Sq. Ft.</p>
+
+</div>
+
+<div>
+
+<h2>4.9 ★</h2>
+
+<p>Google Rating</p>
+
+</div>
+
+<div>
+
+<h2>6 AM - 11 PM</h2>
+
+<p>Open Daily</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= STUDY FOR ================= -->
+
+<section class="study-for">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Perfect For</h2>
+
+<p>
+
+Ideal Study Space For Every Competitive Exam
+
+</p>
+
+</div>
+
+<div class="exam-grid">
+
+<div>UPSC</div>
+
+<div>RAS</div>
+
+<div>SSC</div>
+
+<div>Banking</div>
+
+<div>Railway</div>
+
+<div>NEET</div>
+
+<div>JEE</div>
+
+<div>CA</div>
+
+<div>CSIR</div>
+
+<div>REET</div>
+
+<div>CET</div>
+
+<div>College Students</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= FACILITIES ================= -->
+
+<section id="facilities" class="facilities">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Premium Facilities</h2>
+
+<p>Everything You Need For Productive Study Sessions</p>
 
 </div>
 
 <div class="facility-grid">
 
-<div class="card">
-
-<h3>❄️ Fully Air Conditioned</h3>
-
-<p>Comfortable environment throughout the day.</p>
-
+<div class="facility-card">
+<div class="facility-icon">❄</div>
+<h3>Fully Air Conditioned</h3>
+<p>Comfortable cooling throughout the day.</p>
 </div>
 
-<div class="card">
-
-<h3>📶 Dual High Speed WiFi</h3>
-
-<p>Fast & Stable Internet Connection.</p>
-
+<div class="facility-card">
+<div class="facility-icon">📶</div>
+<h3>Dual High Speed WiFi</h3>
+<p>Fast internet for online study.</p>
 </div>
 
-<div class="card">
-
-<h3>🔒 Fingerprint Entry</h3>
-
-<p>Secure biometric access.</p>
-
+<div class="facility-card">
+<div class="facility-icon">🔒</div>
+<h3>Fingerprint Entry</h3>
+<p>Secure biometric access for members.</p>
 </div>
 
-<div class="card">
-
-<h3>📹 24×7 CCTV</h3>
-
-<p>Complete security surveillance.</p>
-
+<div class="facility-card">
+<div class="facility-icon">📹</div>
+<h3>24×7 CCTV Security</h3>
+<p>Safe and secure study environment.</p>
 </div>
 
-<div class="card">
-
-<h3>💧 RO Drinking Water</h3>
-
-<p>Clean & purified water.</p>
-
+<div class="facility-card">
+<div class="facility-icon">🪑</div>
+<h3>Premium Chairs</h3>
+<p>Comfortable seating for long study hours.</p>
 </div>
 
-<div class="card">
-
-<h3>🪑 Premium Comfortable Chairs</h3>
-
-<p>Designed for long study sessions.</p>
-
-</div>
-  <div class="card">
-<h3>⚡ Power Backup</h3>
-<p>Uninterrupted study even during power cuts.</p>
+<div class="facility-card">
+<div class="facility-icon">🔌</div>
+<h3>Charging Point</h3>
+<p>Dedicated charging socket at every seat.</p>
 </div>
 
-<div class="card">
-<h3>🔌 Charging Point at Every Seat</h3>
-<p>Charge laptop and mobile without hassle.</p>
+<div class="facility-card">
+<div class="facility-icon">💧</div>
+<h3>RO Water</h3>
+<p>Cold & Normal purified drinking water.</p>
 </div>
 
-<div class="card">
-<h3>📚 Spacious Study Desk</h3>
-<p>Wide premium tables for comfortable study.</p>
+<div class="facility-card">
+<div class="facility-icon">🍽</div>
+<h3>Dining Area</h3>
+<p>Separate dining space for students.</p>
 </div>
 
-<div class="card">
-<h3>🔇 Silent Study Zone</h3>
-<p>Peaceful atmosphere with zero disturbance.</p>
+<div class="facility-card">
+<div class="facility-icon">💬</div>
+<h3>Discussion Zone</h3>
+<p>Dedicated area for discussions.</p>
 </div>
 
-<div class="card">
-<h3>🍽️ Dining Area</h3>
-<p>Separate space for meals and refreshments.</p>
+<div class="facility-card">
+<div class="facility-icon">⚡</div>
+<h3>Power Backup</h3>
+<p>Continuous study without interruption.</p>
 </div>
 
-<div class="card">
-<h3>💬 Discussion Area</h3>
-<p>Dedicated discussion space for students.</p>
+<div class="facility-card">
+<div class="facility-icon">🧹</div>
+<h3>Daily Cleaning</h3>
+<p>Neat & hygienic environment every day.</p>
 </div>
 
-<div class="card">
-<h3>🚻 Clean Washrooms</h3>
-<p>Daily cleaned and hygienic washrooms.</p>
-</div>
-
-<div class="card">
-<h3>🧹 Daily Cleaning</h3>
-<p>Clean and dust-free study environment.</p>
-</div>
-
-<div class="card">
-<h3>💡 Eye Comfort LED Lights</h3>
-<p>Bright lighting designed for long study hours.</p>
-</div>
-
-<div class="card">
-<h3>🌬️ Proper Ventilation</h3>
-<p>Fresh and comfortable atmosphere.</p>
-</div>
-
-<div class="card">
-<h3>🔥 Fire Safety</h3>
-<p>Fire extinguisher and emergency safety measures.</p>
-</div>
-
-<div class="card">
-<h3>🚪 Emergency Exit</h3>
-<p>Safe evacuation system.</p>
-</div>
-
-<div class="card">
-<h3>📰 Newspapers & Magazines</h3>
-<p>Daily newspapers and current affairs material.</p>
-</div>
-
-<div class="card">
-<h3>🏍️ Parking Facility</h3>
-<p>Convenient two-wheeler parking.</p>
-</div>
-
-<div class="card">
-<h3>👨‍🎓 UPSC • RAS • SSC Friendly</h3>
-<p>Ideal environment for competitive exam aspirants.</p>
-</div>
-
-<div class="card">
-<h3>⭐ Premium Study Atmosphere</h3>
-<p>Professional environment to maximize focus.</p>
+<div class="facility-card">
+<div class="facility-icon">💡</div>
+<h3>Eye Comfort Lighting</h3>
+<p>Premium LED lighting for better focus.</p>
 </div>
 
 </div>
-</section>
 
-<!-- ================= REVIEWS ================= -->
-
-<section id="reviews" class="reviews">
-
-<div class="section-title">
-<h2>Student Reviews</h2>
-<p>What Students Say About Us</p>
-</div>
-
-<div class="review-card">
-<h3>⭐⭐⭐⭐⭐ 4.9/5 Rating</h3>
-<p>"One of the best libraries in Jaipur with a peaceful environment and premium facilities."</p>
-</div>
-
-<div class="review-card">
-<h3>⭐⭐⭐⭐⭐ Highly Recommended</h3>
-<p>"Comfortable chairs, AC, WiFi and silent atmosphere make studying enjoyable."</p>
-</div>
-
-<div class="review-card">
-<h3>⭐⭐⭐⭐⭐ Excellent Experience</h3>
-<p>"Best choice for UPSC, SSC, Banking, RAS and other competitive exams."</p>
 </div>
 
 </section>
 
-<!-- ================= ABOUT ================= -->
-
-<section class="about">
-
-<div class="section-title">
-<h2>About Achiever's Arena Library</h2>
-</div>
-
-<p>
-
-Achiever's Arena Library is a premium study destination located at
-<strong>Jai Ambey Nagar, Gopalpura Puliya, Tonk Road, Jaipur</strong>.
-
-</p>
-
-<p>
-
-Spread across <strong>1700+ Sq. Ft.</strong> with
-<strong>100+ Premium Seats</strong>, Fully Air Conditioned Hall,
-Dual High Speed WiFi, Fingerprint Entry, RO Water,
-Dining Area and 24×7 CCTV Security.
-
-</p>
-
-<p>
-
-Perfect for UPSC, RAS, SSC, Banking, Railway,
-NEET, JEE and all competitive examination aspirants.
-
-</p>
-
-</section>
-  
-<!-- ================= PRICING ================= -->
+<!-- ================= MEMBERSHIP PLANS ================= -->
 
 <section id="pricing" class="pricing">
 
+<div class="container">
+
 <div class="section-title">
+
 <h2>Membership Plans</h2>
-<p>Choose Your Perfect Study Plan</p>
+
+<p>Choose The Plan That Suits You Best</p>
+
 </div>
 
-<div class="price-grid">
+<div class="pricing-grid">
+
+<div class="price-card">
+
+<span class="plan-tag">POPULAR</span>
+
+<h3>A Section</h3>
+
+<h2>₹1800</h2>
+
+<p>/ Month</p>
+
+<ul>
+
+<li>✔ Premium Seat</li>
+<li>✔ Full Day Access</li>
+<li>✔ AC + WiFi</li>
+<li>✔ Fingerprint Entry</li>
+<li>✔ Charging Point</li>
+
+</ul>
+
+<a href="https://wa.me/917976239384?text=Hi%20I%20want%20to%20book%20A%20Section"
+target="_blank">
+
+<button>Book Seat</button>
+
+</a>
+
+</div>
 
 <div class="price-card featured">
-<h3>🏆 A Section</h3>
-<p class="price">₹1800 <span>/ Month</span></p>
-<ul>
-<li>✔ Full Day Access</li>
-<li>✔ Premium Seat</li>
-<li>✔ Fingerprint Entry</li>
-<li>✔ AC + WiFi</li>
-</ul>
-</div>
 
-<div class="price-card">
-<h3>🥈 B Section</h3>
-<p class="price">₹1500 <span>/ Month</span></p>
-<ul>
-<li>✔ Full Day Access</li>
-<li>✔ Premium Seat</li>
-<li>✔ AC + WiFi</li>
-</ul>
-</div>
+<span class="plan-tag">BEST VALUE</span>
 
-<div class="price-card">
-<h3>🥉 C Section</h3>
-<p class="price">₹1300 <span>/ Month</span></p>
+<h3>B Section</h3>
+
+<h2>₹1500</h2>
+
+<p>/ Month</p>
+
 <ul>
-<li>✔ Full Day Access</li>
+
 <li>✔ Comfortable Seat</li>
+<li>✔ Full Day Access</li>
 <li>✔ AC + WiFi</li>
+<li>✔ Charging Point</li>
+<li>✔ CCTV Security</li>
+
 </ul>
+
+<a href="https://wa.me/917976239384?text=Hi%20I%20want%20to%20book%20B%20Section"
+target="_blank">
+
+<button>Book Seat</button>
+
+</a>
+
 </div>
 
 <div class="price-card">
-<h3>🌅 Morning Shift</h3>
-<p class="price">₹599 <span>/ Month</span></p>
+
+<span class="plan-tag">AFFORDABLE</span>
+
+<h3>C Section</h3>
+
+<h2>₹1300</h2>
+
+<p>/ Month</p>
+
+<ul>
+
+<li>✔ Full Day Access</li>
+<li>✔ AC</li>
+<li>✔ WiFi</li>
+<li>✔ Comfortable Seating</li>
+<li>✔ Peaceful Environment</li>
+
+</ul>
+
+<a href="https://wa.me/917976239384?text=Hi%20I%20want%20to%20book%20C%20Section"
+target="_blank">
+
+<button>Book Seat</button>
+
+</a>
+
 </div>
 
-<div class="price-card">
-<h3>🌙 Evening Shift</h3>
-<p class="price">₹699 <span>/ Month</span></p>
 </div>
 
-<div class="price-card">
-<h3>📅 15 Days Plan</h3>
-<p class="price">Starting ₹650</p>
+</div>
+
+</section>
+
+<!-- ================= FREE VISIT ================= -->
+
+<section class="free-visit">
+
+<div class="container">
+
+<div class="visit-card">
+
+<h2>🎓 Book Your Free Library Visit</h2>
+
+<p>
+
+Visit once before joining and experience our premium study environment.
+
+</p>
+
+<div class="visit-buttons">
+
+<a href="tel:7976239384">
+
+<button>📞 Call Now</button>
+
+</a>
+
+<a href="https://wa.me/917976239384?text=Hi%20I%20want%20to%20book%20a%20free%20library%20visit."
+target="_blank">
+
+<button>🪑 Book Free Visit</button>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= STUDENT REVIEWS ================= -->
+
+<section id="reviews" class="reviews">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Student Reviews</h2>
+
+<p>What Our Students Say</p>
+
+</div>
+
+<div class="reviews-grid">
+
+<div class="review-card">
+
+<div class="stars">⭐⭐⭐⭐⭐</div>
+
+<p>
+
+Excellent environment for serious study. Comfortable seating, peaceful atmosphere and very supportive management.
+
+</p>
+
+<h4>UPSC Aspirant</h4>
+
+</div>
+
+<div class="review-card">
+
+<div class="stars">⭐⭐⭐⭐⭐</div>
+
+<p>
+
+One of the best libraries in Jaipur. WiFi, AC and cleanliness are excellent.
+
+</p>
+
+<h4>SSC Student</h4>
+
+</div>
+
+<div class="review-card">
+
+<div class="stars">⭐⭐⭐⭐⭐</div>
+
+<p>
+
+Highly recommended for Banking, RAS and UPSC preparation.
+
+</p>
+
+<h4>Banking Aspirant</h4>
+
+</div>
+
+</div>
+
+<div class="google-review-btn">
+
+<a href="https://maps.app.goo.gl/MiR6pf2hywTUGNEB7" target="_blank">
+
+<button>
+
+⭐ View Google Reviews
+
+</button>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section id="faq" class="faq">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Frequently Asked Questions</h2>
+
+<p>Everything You Need To Know</p>
+
+</div>
+
+<div class="faq-box">
+
+<details>
+<summary>What are the library timings?</summary>
+<p>Library is open daily from 6:00 AM to 11:00 PM.</p>
+</details>
+
+<details>
+<summary>Is AC available?</summary>
+<p>Yes, Fully Air Conditioned Premium Environment.</p>
+</details>
+
+<details>
+<summary>Is WiFi available?</summary>
+<p>Yes, Dual High-Speed WiFi is available.</p>
+</details>
+
+<details>
+<summary>Do all seats have charging points?</summary>
+<p>Yes, Every seat has its own charging point.</p>
+</details>
+
+<details>
+<summary>Is fingerprint entry available?</summary>
+<p>Yes, Secure biometric fingerprint access is provided.</p>
+</details>
+
+<details>
+<summary>Can I visit before joining?</summary>
+<p>Yes, You can schedule a free visit before taking membership.</p>
+</details>
+
+<details>
+<summary>Which exams is this library suitable for?</summary>
+<p>UPSC, RAS, SSC, Banking, Railway, NEET, JEE, REET, CET and all competitive exams.</p>
+</details>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= LIBRARY RULES ================= -->
+
+<section class="rules">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Library Rules</h2>
+
+<p>Help Us Maintain A Peaceful Study Environment</p>
+
+</div>
+
+<div class="rules-grid">
+
+<div>🤫 Maintain Silence</div>
+
+<div>📵 Keep Mobile On Silent</div>
+
+<div>🍽 Use Dining Area For Meals</div>
+
+<div>🚭 No Smoking</div>
+
+<div>🧹 Keep Your Desk Clean</div>
+
+<div>🤝 Respect Other Students</div>
+
+<div>⚡ Switch Off Lights & Fans If Not Needed</div>
+
+<div>🪑 Use Your Assigned Seat</div>
+
 </div>
 
 </div>
@@ -480,67 +946,352 @@ NEET, JEE and all competitive examination aspirants.
 
 <section id="contact" class="contact">
 
+<div class="container">
+
 <div class="section-title">
+
 <h2>Contact Us</h2>
-<p>Visit Achiever's Arena Library Today</p>
+
+<p>Get In Touch With Achiever's Arena Library</p>
+
 </div>
 
-<p>📍 Jai Ambey Nagar, Gopalpura Puliya, Tonk Road, Jaipur</p>
+<div class="contact-grid">
 
-<p>📞 +91 7976239384</p>
+<div class="contact-card">
 
-<p>🕒 Open Daily : 6:00 AM – 11:00 PM</p>
+<h3>📍 Address</h3>
 
-<div class="hero-buttons">
+<p>
+
+Jai Ambey Nagar,<br>
+
+Gopalpura Puliya,<br>
+
+Tonk Road,<br>
+
+Jaipur
+
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>📞 Phone</h3>
 
 <a href="tel:7976239384">
-<button>📞 Call Now</button>
+
++91 7976239384
+
 </a>
 
-<a href="https://maps.app.goo.gl/BAMx5ALd2gu5WT738" target="_blank">
-<button>📍 Get Directions</button>
+</div>
+
+<div class="contact-card">
+
+<h3>📧 Email</h3>
+
+<a href="mailto:achieversarenalibrary@gmail.com">
+
+achieversarenalibrary@gmail.com
+
 </a>
+
+</div>
+
+<div class="contact-card">
+
+<h3>📷 Instagram</h3>
+
+<a href="https://www.instagram.com/achievers_arena_library?igsh=b3Zpczd3OGFvcG43"
+
+target="_blank">
+
+@achievers_arena_library
+
+</a>
+
+</div>
+
+<div class="contact-card">
+
+<h3>🕒 Timings</h3>
+
+<p>
+
+Open Daily<br>
+
+6:00 AM – 11:00 PM
+
+</p>
+
+</div>
+
+</div>
+
+<div class="contact-buttons">
+
+<a href="tel:7976239384">
+
+<button>📞 Call Now</button>
+
+</a>
+
+<a href="https://wa.me/917976239384"
+
+target="_blank">
+
+<button>💬 Book Seat Now</button>
+
+</a>
+
+<a href="https://maps.app.goo.gl/BAMx5ALd2gu5WT738"
+
+target="_blank">
+
+<button>📍 Get Directions</button>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= GOOGLE MAP ================= -->
+
+<section class="map-section">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Find Us On Google Maps</h2>
+
+<p>Visit Achiever's Arena Library</p>
+
+</div>
+
+<div class="map-box">
+
+<iframe
+src="https://www.google.com/maps?q=Achiever's+Arena+Library+Jaipur&output=embed"
+loading="lazy"
+allowfullscreen
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+</div>
 
 </div>
 
 </section>
 
+<!-- ================= FOLLOW US ================= -->
+
+<section class="follow-us">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>Stay Connected</h2>
+
+<p>Follow Us For Updates & Library Activities</p>
+
+</div>
+
+<div class="social-grid">
+
+<a href="https://www.instagram.com/achievers_arena_library?igsh=b3Zpczd3OGFvcG43" target="_blank">
+
+<div class="social-card">
+
+📷
+
+<h3>Instagram</h3>
+
+<p>@achievers_arena_library</p>
+
+</div>
+
+</a>
+
+<a href="https://wa.me/917976239384" target="_blank">
+
+<div class="social-card">
+
+💬
+
+<h3>WhatsApp</h3>
+
+<p>Book Your Seat Instantly</p>
+
+</div>
+
+</a>
+
+<a href="mailto:achieversarenalibrary@gmail.com">
+
+<div class="social-card">
+
+📧
+
+<h3>Email</h3>
+
+<p>achieversarenalibrary@gmail.com</p>
+
+</div>
+
+</a>
+
+<a href="https://maps.app.goo.gl/MiR6pf2hywTUGNEB7" target="_blank">
+
+<div class="social-card">
+
+⭐
+
+<h3>Google Reviews</h3>
+
+<p>Rate Our Library</p>
+
+</div>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
 <footer>
 
-<h2>ACHIEVER'S ARENA LIBRARY</h2>
-  <p>100+ Premium Seats | AC | High-Speed WiFi | Fingerprint Entry</p>
+<div class="container">
 
-<p>Your Path To Success Begins Here</p>
+<div class="footer-grid">
+
+<div>
+
+<h2>ACHIEVER'S ARENA LIBRARY</h2>
 
 <p>
+
+Your Path To Success Begins Here.
+
+Premium Study Library in Jaipur.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="#home">Home</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#facilities">Facilities</a>
+
+<a href="#pricing">Pricing</a>
+
+<a href="#faq">FAQ</a>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>📞 +91 7976239384</p>
+
+<p>📧 achieversarenalibrary@gmail.com</p>
+
+<p>📍 Gopalpura Puliya, Jaipur</p>
+
+<p>🕒 6:00 AM - 11:00 PM</p>
+
+</div>
+
+<div>
+
+<h3>Follow Us</h3>
+
+<a href="https://www.instagram.com/achievers_arena_library?igsh=b3Zpczd3OGFvcG43" target="_blank">Instagram</a>
+
+<br><br>
+
+<a href="https://wa.me/917976239384" target="_blank">WhatsApp</a>
+
+<br><br>
+
+<a href="mailto:achieversarenalibrary@gmail.com">Email</a>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
 
 © 2026 Achiever's Arena Library
 
 <br>
 
-All Rights Reserved
+All Rights Reserved.
 
 </p>
 
+</div>
+
 </footer>
 
-<a
-href="https://wa.me/917976239384?text=Hello
-  %20Achiever's%20Arena%20Library,%20I%20want
-  %20to%20know%20about%20membership.""
-class="whatsapp"
-target="_blank"
-aria-label="Chat on WhatsApp">
+<!-- ================= FLOATING BUTTONS ================= -->
 
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-alt="WhatsApp"
-width="34"
-height="34">
+<a class="floating whatsapp"
+
+href="https://wa.me/917976239384?text=Hi%20I%20want%20to%20book%20a%20seat."
+
+target="_blank">
+
+💬
 
 </a>
+
+<a class="floating call"
+
+href="tel:7976239384">
+
+📞
+
+</a>
+
+<a class="floating instagram"
+
+href="https://www.instagram.com/achievers_arena_library?igsh=b3Zpczd3OGFvcG43"
+
+target="_blank">
+
+📷
+
+</a>
+
+<button id="backToTop">
+
+⬆
+
+</button>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
