@@ -914,20 +914,22 @@ footer h2{
 @media only screen and (min-width:768px) and (max-width:1024px){
 
 nav{
-    padding:20px 35px;
+    padding:0 20px;
+}
 }
 
 .logo h2{
-    font-size:42px;
-    line-height:1.15;
+    font-size:28px;
+    line-height:1.2;
+}
 }
 
 .nav-links{
-    gap:28px;
+    gap:14px;
 }
 
 .nav-links a{
-    font-size:22px;
+    font-size:16px;
 }
 
 .hero{
