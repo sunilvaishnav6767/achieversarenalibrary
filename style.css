@@ -97,6 +97,15 @@ nav{
     transition:opacity .5s ease;
 
 }
+.hero-video{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:1;
+}
 
 .hero.fade{
 
@@ -109,6 +118,7 @@ nav{
     position:absolute;
 
     inset:0;
+   z-index:2;
 
     background:linear-gradient(
     rgba(0,0,0,.35),
