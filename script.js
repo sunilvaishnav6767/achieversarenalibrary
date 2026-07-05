@@ -4,92 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* ================= HERO SLIDER ================= */
 
-    const hero = document.getElementById("hero");
 
-    const backgrounds = [
-    "hero.webp",
-    "images/IMG-20260306-WA0019.jpg",
-    "images/20260320_230657.jpg",
-    "images/20260320_230311.jpg",
-    "images/file_00000000cbbc71fa9e6f20cf49f430dc.png",
-    "images/20260320_230449.jpg",
-    "images/20260320_230200.jpg",
-    "images/20260320_230628.jpg",
-    "images/IMG-20260704-WA0017.jpg"
-];
+    const heroVideo = document.querySelector(".hero-video");
 
-    let current = 0;
-
-    function setBackground(index){
-
-        hero.classList.add("fade");
-
-        setTimeout(()=>{
-
-            hero.style.backgroundImage =
-`linear-gradient(rgba(0,0,0,.25), rgba(5,7,13,.45)), url("${backgrounds[index]}")`;
-
-hero.style.backgroundSize = "cover";
-hero.style.backgroundPosition = "center center";
-hero.style.backgroundRepeat = "no-repeat";
-
-            hero.classList.remove("fade");
-
-            const dots=document.querySelectorAll(".dot");
-
-            dots.forEach(dot=>dot.classList.remove("active"));
-
-            if(dots[index]){
-                dots[index].classList.add("active");
-            }
-
-        },250);
-
-    }
-
-    /* ================= CREATE DOTS ================= */
-
-    const dotsContainer=document.createElement("div");
-
-    dotsContainer.className="slider-dots";
-
-    backgrounds.forEach((img,index)=>{
-
-        const dot=document.createElement("span");
-
-        dot.className="dot";
-
-        if(index===0){
-            dot.classList.add("active");
-        }
-
-        dot.onclick=()=>{
-
-            current=index;
-
-            setBackground(current);
-
-        }
-
-        dotsContainer.appendChild(dot);
-
-    });
-
-    hero.appendChild(dotsContainer);
-
-    setBackground(current);
-
-    setInterval(()=>{
-
-        current++;
-
-        if(current>=backgrounds.length){
-            current=0;
-        }
-
-        setBackground(current);
-
-    },5000);
+if (heroVideo) {
+    heroVideo.play().catch(() => {});
+}
 
 
     /* ================= GALLERY LIGHTBOX ================= */
