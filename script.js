@@ -36,15 +36,12 @@ heroVideo.play().catch(()=>{});
 
 /* ================= HAMBURGER MENU ================= */
 
-const menuToggle = document.getElementById("menuToggle");
-
-const navLinks = document.getElementById("navLinks");
+/* ================= HAMBURGER MENU ================= */
 
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
 
 menuToggle.onclick = function () {
-    console.log("clicked");
     navLinks.classList.toggle("active");
 };
 /* ================= STICKY NAVBAR ================= */
