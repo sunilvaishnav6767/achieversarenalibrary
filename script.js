@@ -98,5 +98,23 @@ if (heroVideo) {
         observer.observe(card);
 
     });
+cards.forEach(card=>{
 
+    card.style.opacity="0";
+    card.style.transform="translateY(40px)";
+    card.style.transition=".7s";
+    observer.observe(card);
+
+});
+
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.querySelector(".nav-links");
+
+if (menuToggle && navLinks) {
+    menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+}
+
+});
 });
