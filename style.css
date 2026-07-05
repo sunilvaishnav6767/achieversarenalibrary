@@ -909,5 +909,71 @@ footer h2{
         background-position:center center !important;
     }
 }
+/* ================= iPad Responsive Fix ================= */
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+nav{
+    padding:20px 35px;
+}
+
+.logo h2{
+    font-size:42px;
+    line-height:1.15;
+}
+
+.nav-links{
+    gap:28px;
+}
+
+.nav-links a{
+    font-size:22px;
+}
+
+.hero{
+    min-height:100vh !important;
+    padding-top:170px !important;
+    padding-bottom:120px !important;
+
+    background-size:cover !important;
+    background-position:center center !important;
+}
+
+.hero h1{
+    font-size:72px;
+    line-height:1.2;
+}
+
+.hero p{
+    font-size:30px;
+}
+
+.hero-buttons{
+    gap:25px;
+}
+
+.hero-buttons button{
+    font-size:22px;
+    padding:18px 40px;
+}
+
+.hero-stats{
+    gap:30px;
+}
+
+.stat-card{
+    width:220px;
+}
+
+.gallery-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.gallery-grid img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+}
 
 /* ================= END ================= */
